@@ -1,0 +1,18 @@
+[submodule "VulkanSceneGraph"]
+	path = VulkanSceneGraph
+	url = git@github.com:theodoregoetz/VulkanSceneGraph.git
+[submodule "vsgExamples"]
+	path = vsgExamples
+	url = git@github.com:theodoregoetz/vsgExamples.git
+[submodule "vsgPoints"]
+	path = vsgPoints
+	url = git@github.com:theodoregoetz/vsgPoints.git
+[submodule "vsgQt"]
+	path = vsgQt
+	url = git@github.com:theodoregoetz/vsgQt.git
+[submodule "vsgTutorial"]
+	path = vsgTutorial
+	url = git@github.com:theodoregoetz/vsgTutorial.git
+[submodule "vsgXchange"]
+	path = vsgXchange
+	url = git@github.com:theodoregoetz/vsgXchange.git
