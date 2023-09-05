@@ -3,8 +3,8 @@
 HERE="$(realpath "$( dirname -- "${BASH_SOURCE[0]}" )" )"
 source ${HERE}/env.sh
 
-if [[ $# -gt 1 ]]; then
-    SUBMODULES="$1"
+if [[ $# -gt 0 ]]; then
+    SUBMODULES=("$1")
 fi
 
 for SUBMODULE in "${SUBMODULES[@]}"
