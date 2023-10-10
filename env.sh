@@ -12,8 +12,8 @@ export BUILD_DIR="${HERE}/build"
 export CMAKE_INSTALL_PREFIX=${HERE}
 export CMAKE_MODULE_PATH=${CMAKE_INSTALL_PREFIX}/lib64/cmake
 
-#export CMAKE_BUILD_TYPE=Release
-export CMAKE_BUILD_TYPE=Debug
+export CMAKE_BUILD_TYPE=Release
+#export CMAKE_BUILD_TYPE=Debug
 
 if [[ "${CMAKE_BUILD_TYPE}" = "Debug" ]]; then
     # -gdwarf-4 flag needed for totalview

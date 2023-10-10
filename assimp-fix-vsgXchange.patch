@@ -1,0 +1,13 @@
+diff --git a/src/assimp/assimp.cpp b/src/assimp/assimp.cpp
+index 25887af..a309ce5 100644
+--- a/src/assimp/assimp.cpp
++++ b/src/assimp/assimp.cpp
+@@ -718,7 +718,7 @@ vsg::ref_ptr<vsg::Node> SceneConverter::visit(const aiScene* in_scene, vsg::ref_
+     options = in_options;
+     discardEmptyNodes = vsg::value<bool>(true, assimp::discard_empty_nodes, options);
+ 
+-    std::string name = scene->mName.C_Str();
++    std::string name = scene->mRootNode->mName.C_Str();
+ 
+     if (options) sharedObjects = options->sharedObjects;
+     if (!sharedObjects) sharedObjects = vsg::SharedObjects::create();

@@ -16,3 +16,6 @@
 [submodule "vsgXchange"]
 	path = vsgXchange
 	url = git@github.com:theodoregoetz/vsgXchange.git
+[submodule "vsgImGui"]
+	path = vsgImGui
+	url = https://github.com/vsg-dev/vsgImGui.git
